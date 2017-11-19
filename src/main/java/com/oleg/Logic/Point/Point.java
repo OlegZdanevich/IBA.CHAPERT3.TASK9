@@ -1,4 +1,4 @@
-package Logic.Point;
+package com.oleg.Logic.Point;
 
 public class Point
 {

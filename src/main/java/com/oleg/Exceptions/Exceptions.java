@@ -1,4 +1,4 @@
-package Exceptions;
+package com.oleg.Exceptions;
 
 import org.apache.log4j.Logger;
 

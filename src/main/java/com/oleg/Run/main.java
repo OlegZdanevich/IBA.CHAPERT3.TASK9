@@ -1,9 +1,9 @@
-package Run;
+package com.oleg.Run;
 
-import Logic.ArrayListOfTriangles.ArrayListOfTriangles;
-import Exceptions.Exceptions;
-import Logic.Point.Point;
-import Logic.Triangle.Triangle;
+import com.oleg.Logic.ArrayListOfTriangles.ArrayListOfTriangles;
+import com.oleg.Exceptions.Exceptions;
+import com.oleg.Logic.Point.Point;
+import com.oleg.Logic.Triangle.Triangle;
 
 
 import java.util.Scanner;

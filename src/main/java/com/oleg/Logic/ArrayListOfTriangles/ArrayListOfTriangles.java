@@ -1,8 +1,8 @@
-package Logic.ArrayListOfTriangles;
+package com.oleg.Logic.ArrayListOfTriangles;
 
-import Logic.Point.Point;
-import Logic.Triangle.Triangle;
-import Exceptions.Exceptions;
+import com.oleg.Logic.Point.Point;
+import com.oleg.Logic.Triangle.Triangle;
+import com.oleg.Exceptions.Exceptions;
 
 import java.util.ArrayList;
 

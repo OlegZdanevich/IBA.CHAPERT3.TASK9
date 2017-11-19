@@ -14,7 +14,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/Point.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/Point.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
               <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
@@ -24,7 +24,7 @@
         </entry>
       </file>
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Triangle/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-346">
               <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
@@ -36,7 +36,7 @@
         </entry>
       </file>
       <file leaf-file-name="ArrayListOfTriangles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-448">
               <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="propertieslogs.log" pinned="false" current-in-tab="false">
+      <file leaf-file-name="propertieslogs.log" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider">
             <state relative-caret-position="0">
@@ -56,8 +56,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListOfTrianglesByPerimetrComp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
+      <file leaf-file-name="ArrayListOfTrianglesByPerimetrComp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -69,7 +69,7 @@
         </entry>
       </file>
       <file leaf-file-name="ArrayListOfTrianglesBySquareComp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
@@ -83,15 +83,15 @@
       <file leaf-file-name="log4j2.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PointTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/PointTools.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/PointTools.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="5" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
@@ -101,20 +101,20 @@
         </entry>
       </file>
       <file leaf-file-name="Exceptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/Exceptions.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Exceptions/Exceptions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Run/main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Run/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
@@ -149,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Point/Point.java" />
         <option value="$PROJECT_DIR$/src/main/java/Point/PointTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exceptions/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Run/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayListOfTriangles/ArrayListOfTriangles.java" />
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
       </list>
     </option>
   </component>
@@ -221,6 +221,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapert3Task9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapert3Task9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oleg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chapert3Task9" type="b2602c69:ProjectViewProjectNode" />
@@ -345,11 +353,11 @@
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Run.*" />
+          <option name="PATTERN" value="com.oleg.Run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Run.main" />
+      <option name="MAIN_CLASS_NAME" value="com.oleg.Run.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,15 +386,16 @@
       <option name="presentableId" value="Default" />
       <updated>1511087713012</updated>
       <workItem from="1511087715343" duration="10106000" />
-      <workItem from="1511121373463" duration="40000" />
+      <workItem from="1511121373463" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10146000" />
+    <option name="totallyTimeSpent" value="10270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -397,7 +406,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,19 +436,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Run/main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/oleg/Run/main.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Triangle/Triangle.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Triangle/Triangle.java</url>
           <line>66</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -450,7 +459,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
@@ -458,7 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
@@ -475,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -485,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
@@ -503,7 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/PointTools.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/PointTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
@@ -511,18 +520,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/Exceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Exceptions/Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Run/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Run/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
@@ -532,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
@@ -550,34 +559,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Run.java" />
-    <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/Exceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Exceptions/Exceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Run/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Run/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
@@ -587,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-346">
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
@@ -597,7 +591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
@@ -605,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/Point/PointTools.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/Point/PointTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="5" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
@@ -613,7 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTriangles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-448">
           <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
@@ -623,7 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesBySquareComp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
@@ -633,13 +627,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>

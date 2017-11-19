@@ -1,6 +1,6 @@
-package Logic.ArrayListOfTriangles;
+package com.oleg.Logic.ArrayListOfTriangles;
 
-import Logic.Triangle.Triangle;
+import com.oleg.Logic.Triangle.Triangle;
 
 import java.util.Comparator;
 

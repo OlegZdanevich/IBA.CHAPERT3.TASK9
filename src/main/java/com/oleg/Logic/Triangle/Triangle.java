@@ -1,7 +1,7 @@
-package Logic.Triangle;
+package com.oleg.Logic.Triangle;
 
-import Logic.Point.Point;
-import Logic.Point.PointTools;
+import com.oleg.Logic.Point.Point;
+import com.oleg.Logic.Point.PointTools;
 
 
 public class Triangle {
