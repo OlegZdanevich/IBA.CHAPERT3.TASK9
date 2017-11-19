@@ -1,9 +1,9 @@
 package Run;
 
-import ArrayListOfTriangles.ArrayListOfTriangles;
+import Logic.ArrayListOfTriangles.ArrayListOfTriangles;
 import Exceptions.Exceptions;
-import Point.Point;
-import Triangle.Triangle;
+import Logic.Point.Point;
+import Logic.Triangle.Triangle;
 
 
 import java.util.Scanner;

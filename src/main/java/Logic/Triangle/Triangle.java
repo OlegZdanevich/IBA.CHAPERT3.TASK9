@@ -1,7 +1,8 @@
-package Triangle;
+package Logic.Triangle;
 
-import Point.Point;
-import Point.PointTools;
+import Logic.Point.Point;
+import Logic.Point.PointTools;
+
 
 public class Triangle {
     private Point firstPoint = null;

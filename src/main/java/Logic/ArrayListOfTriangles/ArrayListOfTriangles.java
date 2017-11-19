@@ -1,7 +1,7 @@
-package ArrayListOfTriangles;
+package Logic.ArrayListOfTriangles;
 
-import Point.Point;
-import Triangle.Triangle;
+import Logic.Point.Point;
+import Logic.Triangle.Triangle;
 import Exceptions.Exceptions;
 
 import java.util.ArrayList;
