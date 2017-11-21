@@ -1,9 +1,11 @@
-package com.oleg.Run;
+package com.oleg.run;
 
-import com.oleg.Logic.ArrayListOfTriangles.ArrayListOfTriangles;
-import com.oleg.Exceptions.Exceptions;
-import com.oleg.Logic.Point.Point;
-import com.oleg.Logic.Triangle.Triangle;
+
+import com.oleg.exceptions.Exceptions;
+import com.oleg.logic.point.Point;
+import com.oleg.logic.triangle.triangle.Triangle;
+import com.oleg.logic.triangles.trianglesKeeper.ViewGroups;
+import com.oleg.logic.triangles.trianglesKeeper.TrianglesKeeperManage;
 
 
 import java.util.Scanner;
@@ -27,9 +29,11 @@ public class main {
                 arrayOfTriangles[i]=makeTriangle();
             }
 
-            ArrayListOfTriangles trianglesByGroups=new ArrayListOfTriangles(arrayOfTriangles);
+            TrianglesKeeperManage trianglesByGroups=TrianglesKeeperManage.getInstance();
 
-            trianglesByGroups.viewGroups();
+            trianglesByGroups.setElements(arrayOfTriangles);
+
+            ViewGroups.viewGroups(trianglesByGroups);
 
         } catch (NumberFormatException exception) {
             Exceptions.notNumberException(exception);

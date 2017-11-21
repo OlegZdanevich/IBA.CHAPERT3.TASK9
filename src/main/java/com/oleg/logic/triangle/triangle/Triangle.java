@@ -1,7 +1,9 @@
-package com.oleg.Logic.Triangle;
+package com.oleg.logic.triangle.triangle;
 
-import com.oleg.Logic.Point.Point;
-import com.oleg.Logic.Point.PointTools;
+import com.oleg.logic.point.Point;
+import com.oleg.logic.point.PointTools;
+
+import static com.oleg.logic.triangle.typeAnalizer.GetType.getTypeOfTringle;
 
 
 public class Triangle {
@@ -35,43 +37,34 @@ public class Triangle {
         this.lenghtOfThirdLine = PointTools.distanceBetweenTwoPoints(this.thirdPoint, this.firstPoint);
     }
 
-    public String getTypeOfTringle() {
 
 
-        if (lenghtOfFirstLine == lenghtOfSecondLine & lenghtOfSecondLine == lenghtOfThirdLine) {
-            return "equilateral triangle";
-        }
 
-        if (lenghtOfFirstLine == lenghtOfSecondLine || lenghtOfSecondLine == lenghtOfThirdLine || lenghtOfFirstLine == lenghtOfThirdLine) {
-            if (isRightTriangle()) return "isosceles right triangle";
-            return "isosceles triangle";
-        }
 
-        if (isRightTriangle()) return "arbitrary right triangle";
 
-        return "arbitrary triangle";
+
+    public double getLenghtOfFirstLine() {
+        return lenghtOfFirstLine;
     }
 
-    public double getPerimetr() {
-        return lenghtOfFirstLine + lenghtOfSecondLine + lenghtOfThirdLine;
+    public double getLenghtOfSecondLine() {
+        return lenghtOfSecondLine;
     }
 
-    public double getSquare() {
-        double halfOfPerimetr = getPerimetr() / 2;
-
-        return Math.sqrt(halfOfPerimetr * (halfOfPerimetr - lenghtOfFirstLine) * (halfOfPerimetr - lenghtOfSecondLine) * (halfOfPerimetr - lenghtOfThirdLine));
+    public double getLenghtOfThirdLine() {
+        return lenghtOfThirdLine;
     }
 
-    public boolean isRightTriangle() {
-        double squareOfFirstLine = Math.pow(lenghtOfFirstLine, 2);
-        double squareOfSecondLine = Math.pow(lenghtOfSecondLine, 2);
-        double squareOfThirdLine = Math.pow(lenghtOfThirdLine, 2);
+    public Point getFirstPoint() {
+        return firstPoint;
+    }
 
-        if (Math.sqrt(squareOfFirstLine + squareOfSecondLine) == lenghtOfThirdLine) return true;
-        if (Math.sqrt(squareOfFirstLine + squareOfThirdLine) == lenghtOfSecondLine) return true;
-        if (Math.sqrt(squareOfSecondLine + squareOfThirdLine) == lenghtOfFirstLine) return true;
+    public Point getSecondPoint() {
+        return secondPoint;
+    }
 
-        return false;
+    public Point getThirdPoint() {
+        return thirdPoint;
     }
 
     @Override
@@ -96,7 +89,7 @@ public class Triangle {
 
     @Override
     public String toString() {
-        return "{ "+firstPoint+" , "+secondPoint+" , "+thirdPoint+" type: "+getTypeOfTringle()+" }";
+        return "{ "+firstPoint+" , "+secondPoint+" , "+thirdPoint+" type: "+getTypeOfTringle(this)+" }";
     }
 
 
