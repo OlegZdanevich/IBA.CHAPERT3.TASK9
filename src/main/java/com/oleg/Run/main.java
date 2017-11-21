@@ -1,7 +1,7 @@
 package com.oleg.run;
 
 
-import com.oleg.exceptions.Exceptions;
+import com.oleg.loggin.exceptions.Exceptions;
 import com.oleg.logic.point.Point;
 import com.oleg.logic.triangle.triangle.Triangle;
 import com.oleg.logic.triangles.trianglesKeeper.ViewGroups;
