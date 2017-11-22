@@ -16,4 +16,6 @@ public class TrianglesKeeperByPerimetrComp implements Comparator<Triangle> {
             }
 
     }
+
+
 }

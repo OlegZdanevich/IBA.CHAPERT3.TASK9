@@ -1,0 +1,7 @@
+[ERROR] 2017-11-22 13:33:37.736 [main] Exceptions - You should enter integer number
+Trace: 
+com.oleg.run.main.main(main.java:21)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+

@@ -1,9 +1,0 @@
-[ERROR] 2017-11-19 22:58:51.979 [main] Exceptions - You should enter integer number
-Trace: 
-com.oleg.run.main.main(main.java:19)
-java.base/java.lang.Integer.parseInt(Integer.java:770)
-java.base/java.lang.Integer.parseInt(Integer.java:652)
-java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-
-[INFO ] 2017-11-21 23:57:47.913 [main] Info - { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
-[INFO ] 2017-11-21 23:58:20.287 [main] Info - { {x: 1 ,y:1 } , {x: 1 ,y:4 } , {x: 4 ,y:1 } type: isosceles right triangle }
