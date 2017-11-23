@@ -1,4 +1,4 @@
-package com.oleg.logic.point;
+package com.oleg.entity.point;
 
 public class PointTools
 {

@@ -1,7 +1,7 @@
 package com.oleg.logic.triangles.trianglesKeeper;
 
 import com.oleg.loggin.info.Info;
-import com.oleg.logic.triangle.triangle.Triangle;
+import com.oleg.entity.triangle.triangle.Triangle;
 import com.oleg.logic.triangles.comparators.TrianglesKeeperByPerimetrComp;
 import com.oleg.logic.triangles.comparators.TrianglesKeeperBySquareComp;
 

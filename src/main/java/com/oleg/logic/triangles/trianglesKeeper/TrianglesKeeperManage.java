@@ -1,7 +1,7 @@
 package com.oleg.logic.triangles.trianglesKeeper;
 
-import com.oleg.logic.triangle.triangle.Triangle;
-import com.oleg.logic.triangle.typeAnalizer.GetType;
+import com.oleg.entity.triangle.triangle.Triangle;
+import com.oleg.entity.triangle.typeAnalizer.GetType;
 import com.oleg.observer.Observer;
 
 

@@ -1,10 +1,10 @@
 package com.oleg.logic.triangles.comparators;
 
-import com.oleg.logic.triangle.triangle.Triangle;
+import com.oleg.entity.triangle.triangle.Triangle;
 
 import java.util.Comparator;
 
-import static com.oleg.logic.triangle.triangle.TriangleTools.getSquare;
+import static com.oleg.entity.triangle.triangle.TriangleTools.getSquare;
 
 public class TrianglesKeeperBySquareComp implements Comparator<Triangle> {
 

@@ -1,7 +1,7 @@
 package com.oleg.observer;
 
 
-import com.oleg.logic.triangle.triangle.Triangle;
+import com.oleg.entity.triangle.triangle.Triangle;
 
 
 public interface Observer

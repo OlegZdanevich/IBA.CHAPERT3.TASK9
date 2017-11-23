@@ -1,7 +1,7 @@
-package com.oleg.logic.triangle.typeAnalizer;
+package com.oleg.entity.triangle.typeAnalizer;
 
-import com.oleg.logic.point.Point;
-import com.oleg.logic.triangle.triangle.Triangle;
+import com.oleg.entity.point.Point;
+import com.oleg.entity.triangle.triangle.Triangle;
 
 public class GetType {
     public static String getTypeOfTringle(Triangle triangle) {

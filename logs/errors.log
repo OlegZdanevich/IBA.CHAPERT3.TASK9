@@ -1,0 +1,56 @@
+[ERROR] 2017-11-23 14:56:26.013 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-23 14:56:26.015 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:60)
+com.oleg.entity.triangle.triangle.Triangle.<init>(Triangle.java:31)
+
+[ERROR] 2017-11-23 14:56:26.015 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-23 14:56:26.015 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-23 14:56:37.726 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-23 14:56:37.728 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:60)
+com.oleg.entity.triangle.triangle.Triangle.<init>(Triangle.java:31)
+
+[ERROR] 2017-11-23 14:56:37.728 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-23 14:56:37.728 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-23 14:59:31.752 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-23 14:59:31.753 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:60)
+com.oleg.entity.triangle.triangle.Triangle.<init>(Triangle.java:31)
+
+[ERROR] 2017-11-23 14:59:31.754 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-23 14:59:31.754 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-23 15:00:11.068 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-23 15:00:11.070 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:60)
+com.oleg.entity.triangle.triangle.Triangle.<init>(Triangle.java:31)
+
+[ERROR] 2017-11-23 15:00:11.070 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-23 15:00:11.070 [main] Exceptions - com.oleg.run.main.main(main.java:19)
+com.oleg.run.main.getDataFromFile(main.java:84)
+com.oleg.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+

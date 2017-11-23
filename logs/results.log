@@ -1,0 +1,200 @@
+*******************************
+isosceles right triangle
+{ {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+
+
+
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles right triangle
+{ {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+
+
+
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles right triangle
+{ {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+
+
+
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles right triangle
+{ {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 4 ,y:1 } , {x: 1 ,y:4 } type: isosceles right triangle }
+
+
+
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+
+
+
+*******************************
+isosceles triangle
+{ {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by perimetr: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Maximum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+Minimum by square: { {x: 1 ,y:1 } , {x: 2 ,y:3 } , {x: 2 ,y:-1 } type: isosceles triangle }
+
+
+
+arbitrary triangle
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+{ {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 36 ,y:150 } type: arbitrary triangle }
+Maximum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by perimetr: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+Maximum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 50 ,y:200 } type: arbitrary triangle }
+Minimum by square: { {x: 100 ,y:100 } , {x: 0 ,y:0 } , {x: 40 ,y:150 } type: arbitrary triangle }
+
+
+

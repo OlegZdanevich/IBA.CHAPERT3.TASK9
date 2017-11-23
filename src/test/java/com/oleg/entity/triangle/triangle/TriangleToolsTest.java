@@ -1,8 +1,7 @@
-package com.oleg.logic.triangle.triangle;
+package com.oleg.entity.triangle.triangle;
 
-import com.oleg.logic.point.Point;
+import com.oleg.entity.point.Point;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 

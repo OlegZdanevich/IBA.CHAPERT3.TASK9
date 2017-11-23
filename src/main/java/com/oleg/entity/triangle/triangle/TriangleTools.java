@@ -1,4 +1,4 @@
-package com.oleg.logic.triangle.triangle;
+package com.oleg.entity.triangle.triangle;
 
 
 

@@ -1,16 +1,16 @@
-package com.oleg.logic.triangle.triangle;
+package com.oleg.entity.triangle.triangle;
 
 import com.oleg.loggin.exceptions.Exceptions;
-import com.oleg.logic.point.Point;
-import com.oleg.logic.point.PointTools;
-import com.oleg.logic.triangle.typeAnalizer.GetType;
+import com.oleg.entity.point.Point;
+import com.oleg.entity.point.PointTools;
+import com.oleg.entity.triangle.typeAnalizer.GetType;
 import com.oleg.observer.Observable;
 import com.oleg.observer.Observer;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.oleg.logic.triangle.typeAnalizer.GetType.getTypeOfTringle;
+import static com.oleg.entity.triangle.typeAnalizer.GetType.getTypeOfTringle;
 
 
 public class Triangle implements Observable {
