@@ -1,12 +1,19 @@
 package com.oleg.logic.triangle.triangle;
 
+import com.oleg.loggin.exceptions.Exceptions;
 import com.oleg.logic.point.Point;
 import com.oleg.logic.point.PointTools;
+import com.oleg.logic.triangle.typeAnalizer.GetType;
+import com.oleg.observer.Observable;
+import com.oleg.observer.Observer;
+
+import java.util.LinkedList;
+import java.util.List;
 
 import static com.oleg.logic.triangle.typeAnalizer.GetType.getTypeOfTringle;
 
 
-public class Triangle {
+public class Triangle implements Observable {
     private Point firstPoint = null;
     private Point secondPoint = null;
     private Point thirdPoint = null;
@@ -15,7 +22,14 @@ public class Triangle {
     private double lenghtOfSecondLine;
     private double lenghtOfThirdLine;
 
-    public Triangle(Point firstPoint, Point secondPoint, Point thirdPoint) {
+    private List<Observer> observers;
+
+    public Triangle(Point firstPoint, Point secondPoint, Point thirdPoint) throws IllegalArgumentException {
+
+
+        if (!GetType.isTheTriangle(firstPoint, secondPoint, thirdPoint)) {
+            throw new IllegalArgumentException("This in not triangle");
+        }
         this.firstPoint = new Point(firstPoint);
         this.secondPoint = new Point(secondPoint);
         this.thirdPoint = new Point(thirdPoint);
@@ -24,10 +38,13 @@ public class Triangle {
         this.lenghtOfSecondLine = PointTools.distanceBetweenTwoPoints(secondPoint, thirdPoint);
         this.lenghtOfThirdLine = PointTools.distanceBetweenTwoPoints(thirdPoint, firstPoint);
 
+
+        observers = new LinkedList<>();
+
+
     }
 
-    Triangle(Triangle triangle)
-    {
+    Triangle(Triangle triangle) {
         this.firstPoint = new Point(triangle.firstPoint);
         this.secondPoint = new Point(triangle.secondPoint);
         this.thirdPoint = new Point(triangle.thirdPoint);
@@ -35,12 +52,9 @@ public class Triangle {
         this.lenghtOfFirstLine = PointTools.distanceBetweenTwoPoints(this.firstPoint, this.secondPoint);
         this.lenghtOfSecondLine = PointTools.distanceBetweenTwoPoints(this.secondPoint, this.thirdPoint);
         this.lenghtOfThirdLine = PointTools.distanceBetweenTwoPoints(this.thirdPoint, this.firstPoint);
+
+        observers = new LinkedList<>();
     }
-
-
-
-
-
 
 
     public double getLenghtOfFirstLine() {
@@ -89,8 +103,50 @@ public class Triangle {
 
     @Override
     public String toString() {
-        return "{ "+firstPoint+" , "+secondPoint+" , "+thirdPoint+" type: "+getTypeOfTringle(this)+" }";
+        return "{ " + firstPoint + " , " + secondPoint + " , " + thirdPoint + " type: " + getTypeOfTringle(this) + " }";
     }
 
+    @Override
+    public void registerObserver(Observer o) {
+        observers.add(o);
+    }
 
+    @Override
+    public void removeObserver(Observer o) {
+        observers.remove(o);
+    }
+
+    @Override
+    public void notifyObservers(Triangle oldTriangle, Triangle newTriangle) {
+        for (Observer observer : observers)
+            observer.update(oldTriangle, newTriangle);
+    }
+
+    public boolean setPoints(Point firstPoint, Point secondPoint, Point thirdPoint) {
+
+        try {
+            if (!GetType.isTheTriangle(firstPoint, secondPoint, thirdPoint))
+                throw new IllegalArgumentException("This is not triangle");
+            Triangle oldTriangle = new Triangle(this);
+            Triangle newTriangle = new Triangle(firstPoint, secondPoint, thirdPoint);
+
+
+            notifyObservers(oldTriangle, newTriangle);
+
+            this.firstPoint = new Point(firstPoint);
+            this.secondPoint = new Point(secondPoint);
+            this.thirdPoint = new Point(thirdPoint);
+
+            this.lenghtOfFirstLine = PointTools.distanceBetweenTwoPoints(firstPoint, secondPoint);
+            this.lenghtOfSecondLine = PointTools.distanceBetweenTwoPoints(secondPoint, thirdPoint);
+            this.lenghtOfThirdLine = PointTools.distanceBetweenTwoPoints(thirdPoint, firstPoint);
+
+            return true;
+        } catch (IllegalArgumentException exception) {
+            Exceptions.notCorrectNumbersException(exception);
+            return false;
+        }
+
+
+    }
 }

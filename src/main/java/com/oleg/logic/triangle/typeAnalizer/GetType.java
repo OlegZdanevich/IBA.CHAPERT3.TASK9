@@ -1,5 +1,6 @@
 package com.oleg.logic.triangle.typeAnalizer;
 
+import com.oleg.logic.point.Point;
 import com.oleg.logic.triangle.triangle.Triangle;
 
 public class GetType {
@@ -32,5 +33,23 @@ public class GetType {
         if (Math.sqrt(squareOfSecondLine + squareOfThirdLine) == triangle.getLenghtOfFirstLine()) return true;
 
         return false;
+    }
+
+    public static boolean isTheTriangle(Point firstPoint, Point secondPoint, Point thirdPoint) {
+        boolean result = true;
+
+        if (firstPoint .equals(secondPoint) || secondPoint.equals(thirdPoint) || firstPoint.equals(thirdPoint)) {
+            result = false;
+        }
+
+        if (firstPoint.getX() == secondPoint.getX() & secondPoint.getX() == thirdPoint.getX() & firstPoint.getX() == thirdPoint.getX()) {
+            result = false;
+        }
+
+        if (firstPoint.getY() == secondPoint.getY() & secondPoint.getY() == thirdPoint.getY() & firstPoint.getY() == thirdPoint.getY()) {
+            result = false;
+        }
+
+        return result;
     }
 }

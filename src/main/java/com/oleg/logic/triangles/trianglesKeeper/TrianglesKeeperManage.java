@@ -1,15 +1,14 @@
 package com.oleg.logic.triangles.trianglesKeeper;
 
-import com.oleg.loggin.exceptions.Exceptions;
-import com.oleg.logic.point.Point;
 import com.oleg.logic.triangle.triangle.Triangle;
 import com.oleg.logic.triangle.typeAnalizer.GetType;
+import com.oleg.observer.Observer;
 
 
 import java.util.HashMap;
 
 
-public class TrianglesKeeperManage
+public class TrianglesKeeperManage implements Observer
 {
     private static volatile TrianglesKeeperManage instance;
 
@@ -32,27 +31,20 @@ public class TrianglesKeeperManage
     { }
 
 
-    public void setElements(Triangle... triangles)
+    public void addElement(Triangle triangleToAdd)
     {
-        try {
+        String type= GetType.getTypeOfTringle(triangleToAdd);
+        trianglesMap.put(triangleToAdd,type);
 
-            if (triangles.length == 0) throw new NullPointerException("This method should have triangles");
-
-            for(int i=0;i<triangles.length;i++)
-            {
-                String type= GetType.getTypeOfTringle(triangles[i]);
-                trianglesMap.put(triangles[i],type);
-            }
-        }
-        catch (NullPointerException exception) {
-
-            Exceptions.noParametrException(exception);
-            Exceptions.makeWarning(" Array will have only one triangle");
-
-            trianglesMap.put(new Triangle(new Point(0,0),new Point(0,0),new Point(0,0)),"none");
-        }
+        triangleToAdd.registerObserver(this);
+    }
 
 
+    @Override
+    public void update(Triangle oldTriangle,Triangle newTriangle) {
+        trianglesMap.remove(oldTriangle);
+        trianglesMap.put(newTriangle, GetType.getTypeOfTringle(newTriangle));
+        ViewGroups.viewGroups(this);
     }
 
     public HashMap getSetsOfTriangles() {

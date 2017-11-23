@@ -4,7 +4,7 @@ import com.oleg.logic.triangle.triangle.Triangle;
 
 import java.util.Comparator;
 
-import static com.oleg.logic.triangle.triangle.TringleTools.getPerimetr;
+import static com.oleg.logic.triangle.triangle.TriangleTools.getPerimetr;
 
 public class TrianglesKeeperByPerimetrComp implements Comparator<Triangle> {
 

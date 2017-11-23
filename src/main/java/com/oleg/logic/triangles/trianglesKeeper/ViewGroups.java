@@ -16,12 +16,14 @@ public class ViewGroups {
 
         String[] typesOfTriangle = {"equilateral triangle", "isosceles right triangle", "isosceles triangle", "arbitrary right triangle", "arbitrary triangle"};
 
+        Info.writeInfo("*******************************");
+
         for (int i = 0; i < typesOfTriangle.length; i++) {
             if (triangles.containsValue(typesOfTriangle[i])) {
                 Info.writeInfo(typesOfTriangle[i]);
 
 
-                ViewGroups.findKey(triangles, typesOfTriangle[i]);
+                ViewGroups.findElements(triangles, typesOfTriangle[i]);
 
                 ViewGroups.findMaxByPerimetr(triangles, typesOfTriangle[i]);
                 ViewGroups.findMinByPerimetr(triangles, typesOfTriangle[i]);
@@ -33,7 +35,7 @@ public class ViewGroups {
         }
     }
 
-    private static void findKey(HashMap<Triangle, String> map, String value) {
+    private static void findElements(HashMap<Triangle, String> map, String value) {
         map.entrySet().stream()
                 .filter(element -> element.getValue().equals(value))
                 .forEach(neededElement -> Info.writeInfo(neededElement.getKey().toString()));
@@ -41,8 +43,10 @@ public class ViewGroups {
 
     private static void findMaxByPerimetr(HashMap<Triangle, String> map, String value) {
         TrianglesKeeperByPerimetrComp compareByPerimetr = new TrianglesKeeperByPerimetrComp();
+
         Stream<HashMap.Entry<Triangle, String>> rightElements = ViewGroups.getRightElements(map, value);
         HashMap.Entry<Triangle, String> maxElement = rightElements.max((element1, element2) -> compareByPerimetr.compare(element1.getKey(), element2.getKey())).get();
+
         Info.writeInfo("Maximum by perimetr: " + maxElement.getKey());
 
 
@@ -50,25 +54,31 @@ public class ViewGroups {
 
     private static void findMinByPerimetr(HashMap<Triangle, String> map, String value) {
         TrianglesKeeperByPerimetrComp compareByPerimetr = new TrianglesKeeperByPerimetrComp();
+
         Stream<HashMap.Entry<Triangle, String>> rightElements = ViewGroups.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> minElement = rightElements.max((element1, element2) -> compareByPerimetr.compare(element1.getKey(), element2.getKey())).get();
+        HashMap.Entry<Triangle, String> minElement = rightElements.min((element1, element2) -> compareByPerimetr.compare(element1.getKey(), element2.getKey())).get();
+
         Info.writeInfo("Minimum by perimetr: " + minElement.getKey());
 
     }
 
     private static void findMaxBySquare(HashMap<Triangle, String> map, String value) {
         TrianglesKeeperBySquareComp compareBySquare = new TrianglesKeeperBySquareComp();
+
         Stream<HashMap.Entry<Triangle, String>> rightElements = ViewGroups.getRightElements(map, value);
         HashMap.Entry<Triangle, String> maxElement = rightElements.max((element1, element2) -> compareBySquare.compare(element1.getKey(), element2.getKey())).get();
+
         Info.writeInfo("Maximum by square: " + maxElement.getKey());
 
     }
 
     private static void findMinBySquare(HashMap<Triangle, String> map, String value) {
         TrianglesKeeperBySquareComp compareBySquare = new TrianglesKeeperBySquareComp();
+
         Stream<HashMap.Entry<Triangle, String>> rightElements = ViewGroups.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> minElement = rightElements.max((element1, element2) -> compareBySquare.compare(element1.getKey(), element2.getKey())).get();
-        Info.writeInfo("Minimum by square: " + minElement.getKey());
+        HashMap.Entry<Triangle, String> minElement = rightElements.min((element1, element2) -> compareBySquare.compare(element1.getKey(), element2.getKey())).get();
+
+        Info.writeInfo("Minimum by square: " + minElement.getKey()+"\n\n\n");
 
     }
 

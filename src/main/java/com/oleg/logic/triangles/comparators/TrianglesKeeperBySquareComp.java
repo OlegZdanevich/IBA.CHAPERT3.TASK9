@@ -4,7 +4,7 @@ import com.oleg.logic.triangle.triangle.Triangle;
 
 import java.util.Comparator;
 
-import static com.oleg.logic.triangle.triangle.TringleTools.getSquare;
+import static com.oleg.logic.triangle.triangle.TriangleTools.getSquare;
 
 public class TrianglesKeeperBySquareComp implements Comparator<Triangle> {
 

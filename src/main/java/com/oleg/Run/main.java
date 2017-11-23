@@ -4,69 +4,86 @@ package com.oleg.run;
 import com.oleg.loggin.exceptions.Exceptions;
 import com.oleg.logic.point.Point;
 import com.oleg.logic.triangle.triangle.Triangle;
-import com.oleg.logic.triangles.trianglesKeeper.ViewGroups;
 import com.oleg.logic.triangles.trianglesKeeper.TrianglesKeeperManage;
+import com.oleg.logic.triangles.trianglesKeeper.ViewGroups;
 
-
-import java.util.Scanner;
+import java.io.*;
+import java.util.ArrayList;
 
 public class main {
-    private static Triangle[] arrayOfTriangles = null;
+    private static ArrayList<Triangle> arrayOfTriangles = new ArrayList<>();
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         try {
+            File data = new File("data/data1.txt");
+            getDataFromFile(data);
 
-            System.out.print("Enter number of triangles: ");
-            int numberOfTriangles = Integer.parseInt(input.next());
+            TrianglesKeeperManage trianglesKeeper = TrianglesKeeperManage.getInstance();
 
-            if (numberOfTriangles <= 0) throw new IllegalArgumentException("Number of triangles should be greater then zero");
+            ViewGroups.viewGroups(trianglesKeeper);
+            arrayOfTriangles.get(0).setPoints(new Point(100, 100), new Point(0, 0), new Point(40, 150));
 
-            arrayOfTriangles=new Triangle[numberOfTriangles];
 
-            for (int i = 0; i < numberOfTriangles; i++) {
-                System.out.println((i+1)+") triangle");
-                arrayOfTriangles[i]=makeTriangle();
-            }
+        } catch (FileNotFoundException exception) {
+            Exceptions.fileNotFoundException(exception);
+        } catch (IOException exception) {
+            Exceptions.ReadFileException(exception);
+        }
 
-            TrianglesKeeperManage trianglesByGroups=TrianglesKeeperManage.getInstance();
+    }
 
-            trianglesByGroups.setElements(arrayOfTriangles);
+    private static void addToKeeperTriangle(String line) {
+        try {
+            String[] byParts = line.split(",");
 
-            ViewGroups.viewGroups(trianglesByGroups);
+            if (byParts.length == 3) {
+                String[] firstCoordiante = byParts[0].split(";");
+                String[] secondCoordiante = byParts[1].split(";");
+                String[] thirdCoordiante = byParts[2].split(";");
 
+                if (firstCoordiante.length == 2 & secondCoordiante.length == 2 & thirdCoordiante.length == 2) {
+                    int xFirstCoordiante = Integer.parseInt(firstCoordiante[0]);
+                    int yFirstCoordiante = Integer.parseInt(firstCoordiante[1]);
+
+                    int xSecondCoordiante = Integer.parseInt(secondCoordiante[0]);
+                    int ySecondCoordiante = Integer.parseInt(secondCoordiante[1]);
+
+                    int xThirdCoordiante = Integer.parseInt(thirdCoordiante[0]);
+                    int yThirdCoordiante = Integer.parseInt(thirdCoordiante[1]);
+
+
+                    Point firstPoint = new Point(xFirstCoordiante, yFirstCoordiante);
+                    Point secondPoint = new Point(xSecondCoordiante, ySecondCoordiante);
+                    Point thirdPoint = new Point(xThirdCoordiante, yThirdCoordiante);
+
+
+                    Triangle triangleToAdd = new Triangle(firstPoint, secondPoint, thirdPoint);
+
+                    arrayOfTriangles.add(triangleToAdd);
+
+                    TrianglesKeeperManage keeper = TrianglesKeeperManage.getInstance();
+                    keeper.addElement(triangleToAdd);
+
+                } else throw new IllegalArgumentException(" Every coordinate should have only 2 parametrs");
+
+            } else throw new IllegalArgumentException(" Every triangle should have only three points");
         } catch (NumberFormatException exception) {
             Exceptions.notNumberException(exception);
-        } catch (NullPointerException exception) {
-            Exceptions.notInitializedException(exception);
+        } catch (IllegalArgumentException exception) {
+            Exceptions.notCorrectNumbersException(exception);
         }
+
+
     }
 
-    private static Triangle makeTriangle() throws NumberFormatException
-    {
-        System.out.println("First point: ");
-        Point firstPoint=makePoint();
-
-        System.out.println("Second point: ");
-        Point secondPoint=makePoint();
-
-        System.out.println("Third point: ");
-        Point thirdPoint=makePoint();
-
-        return new Triangle(firstPoint,secondPoint,thirdPoint);
-    }
-
-    private static Point makePoint() throws NumberFormatException
-    {
-        Scanner input=new Scanner(System.in);
-
-        System.out.println("X:" );
-        int x=Integer.parseInt(input.next());
-
-        System.out.println("Y:" );
-        int y=Integer.parseInt(input.next());
-
-        return new Point(x,y);
+    private static void getDataFromFile(File data) throws IOException {
+        FileReader fr = new FileReader(data);
+        BufferedReader reader = new BufferedReader(fr);
+        String line = reader.readLine();
+        while (line != null) {
+            addToKeeperTriangle(line);
+            line = reader.readLine();
+        }
     }
 }
 

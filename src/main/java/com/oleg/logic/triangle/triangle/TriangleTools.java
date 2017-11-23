@@ -1,6 +1,8 @@
 package com.oleg.logic.triangle.triangle;
 
-public class TringleTools
+
+
+public class TriangleTools
 {
 
     public static double getPerimetr(Triangle triangle) {
@@ -12,4 +14,5 @@ public class TringleTools
 
         return Math.sqrt(halfOfPerimetr * (halfOfPerimetr - triangle.getLenghtOfFirstLine()) * (halfOfPerimetr - triangle.getLenghtOfSecondLine()) * (halfOfPerimetr - triangle.getLenghtOfThirdLine()));
     }
+
 }
