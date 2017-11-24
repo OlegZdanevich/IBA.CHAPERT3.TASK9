@@ -5,6 +5,7 @@ import com.iba.task9.loggin.exceptions.Exceptions;
 import com.iba.task9.observer.Observable;
 import com.iba.task9.observer.Observer;
 import com.iba.task9.tools.point.PointTools;
+import com.iba.task9.tools.triangle.TriangleValidator;
 import com.iba.task9.tools.triangle.TypeAnalizerTools;
 
 import java.util.LinkedList;
@@ -25,7 +26,7 @@ public class Triangle implements Observable {
     public Triangle(Point firstPoint, Point secondPoint, Point thirdPoint) throws IllegalArgumentException {
 
 
-        if (!TypeAnalizerTools.isTheTriangle(firstPoint, secondPoint, thirdPoint)) {
+        if (!TriangleValidator.isTheTriangle(firstPoint, secondPoint, thirdPoint)) {
             throw new IllegalArgumentException("This in not triangle");
         }
         this.firstPoint = new Point(firstPoint);
@@ -123,7 +124,7 @@ public class Triangle implements Observable {
     public boolean setPoints(Point firstPoint, Point secondPoint, Point thirdPoint) {
 
         try {
-            if (!TypeAnalizerTools.isTheTriangle(firstPoint, secondPoint, thirdPoint))
+            if (!TriangleValidator.isTheTriangle(firstPoint, secondPoint, thirdPoint))
                 throw new IllegalArgumentException("This is not triangle");
             Triangle oldTriangle = new Triangle(this);
             Triangle newTriangle = new Triangle(firstPoint, secondPoint, thirdPoint);

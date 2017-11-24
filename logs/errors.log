@@ -54,3 +54,185 @@ java.base/java.lang.Integer.parseInt(Integer.java:770)
 java.base/java.lang.Integer.parseInt(Integer.java:652)
 java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 
+[ERROR] 2017-11-24 20:07:00.455 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 20:07:00.455 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 20:07:00.470 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 20:07:00.470 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 20:09:42.058 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 20:09:42.058 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 20:09:42.058 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 20:09:42.073 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 20:15:08.695 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 20:15:08.711 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 20:15:08.711 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 20:15:08.711 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 20:15:13.100 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 20:15:13.115 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 20:15:13.115 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 20:15:13.115 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:12:20.077 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:12:20.077 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:12:20.077 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:12:20.077 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:12:40.946 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:12:40.946 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:12:40.946 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:12:40.946 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:13:52.133 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:13:52.133 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:13:52.133 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:13:52.133 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:15:58.653 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:15:58.653 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:15:58.653 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:15:58.653 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:32:05.370 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:32:05.370 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:32:05.370 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:32:05.370 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:32:44.615 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:32:44.615 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:32:44.615 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:32:44.615 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:37:53.256 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:37:53.256 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:37:53.256 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:37:53.256 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 22:39:23.974 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 22:39:23.974 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 22:39:23.990 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 22:39:23.990 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+
+[ERROR] 2017-11-24 23:00:55.663 [main] Exceptions - This in not triangle
+[TRACE] 2017-11-24 23:00:55.664 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:60)
+com.iba.task9.entity.triangle.Triangle.<init>(Triangle.java:30)
+
+[ERROR] 2017-11-24 23:00:55.664 [main] Exceptions - You should enter integer number
+[TRACE] 2017-11-24 23:00:55.664 [main] Exceptions - com.iba.task9.run.main.main(main.java:19)
+com.iba.task9.run.main.getDataFromFile(main.java:84)
+com.iba.task9.run.main.addToKeeperTriangle(main.java:45)
+java.base/java.lang.Integer.parseInt(Integer.java:770)
+java.base/java.lang.Integer.parseInt(Integer.java:652)
+java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+

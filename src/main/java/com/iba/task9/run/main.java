@@ -3,7 +3,7 @@ package com.iba.task9.run;
 
 import com.iba.task9.entity.point.Point;
 import com.iba.task9.entity.triangle.Triangle;
-import com.iba.task9.keeper.TrianglesKeeper;
+import com.iba.task9.keeper.triangles.TrianglesKeeper;
 import com.iba.task9.loggin.exceptions.Exceptions;
 import com.iba.task9.tools.keeper.KeeperView;
 

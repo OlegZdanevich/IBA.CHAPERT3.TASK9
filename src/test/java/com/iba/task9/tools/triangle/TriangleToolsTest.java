@@ -1,7 +1,7 @@
-package com.iba.task9.entity.triangle;
+package com.iba.task9.tools.triangle;
 
 import com.iba.task9.entity.point.Point;
-import com.iba.task9.tools.triangle.TriangleTools;
+import com.iba.task9.entity.triangle.Triangle;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

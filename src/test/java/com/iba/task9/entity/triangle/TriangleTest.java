@@ -37,9 +37,8 @@ public class TriangleTest {
     @Test
     public void toStringCheck()
     {
-        assertEquals("{ " + firstTriangle.getFirstPoint() + " , " + firstTriangle.getSecondPoint() +
-                " , " + firstTriangle.getThirdPoint() + " type: " + TypeAnalizerTools.getTypeOfTringle(firstTriangle)
-                + " }",firstTriangle.toString());
+        assertEquals("{ {x: 1 ,y:1 } , {x: 2 ,y:1 } , {x: 1 ,y:2 } type: isosceles right triangle }",firstTriangle.toString());
+        assertEquals("{ {x: 1 ,y:1 } , {x: 5 ,y:1 } , {x: 1 ,y:5 } type: isosceles right triangle }",secondTriangle.toString());
     }
 
 }

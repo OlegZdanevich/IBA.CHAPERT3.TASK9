@@ -1,89 +1,95 @@
 package com.iba.task9.tools.keeper;
 
-import com.iba.task9.loggin.info.Info;
-import com.iba.task9.keeper.TrianglesKeeper;
-import com.iba.task9.entity.triangle.Triangle;
 import com.iba.task9.comparators.triangles.TriangleComparatorByPerimetr;
 import com.iba.task9.comparators.triangles.TriangleComparatorBySquare;
+import com.iba.task9.entity.triangle.Triangle;
+import com.iba.task9.keeper.triangles.TrianglesKeeper;
+import com.iba.task9.keeper.types.TypesKeeper;
+import com.iba.task9.loggin.info.Info;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.stream.Stream;
 
 public class KeeperView {
 
 
-    public static void viewGroups(TrianglesKeeper keeper) {
-        HashMap<Triangle, String> triangles = keeper.getSetsOfTriangles();
+    public static <K, V> void viewGroups(TrianglesKeeper keeper) {
+        HashMap<K, V> triangles = keeper.getTrianglesMap();
 
-        String[] typesOfTriangle = {"equilateral triangle", "isosceles right triangle", "isosceles triangle", "arbitrary right triangle", "arbitrary triangle"};
+        TypesKeeper trianglesTypes=keeper.getTypesKeeperOfTriangles();
 
         Info.writeInfo("*******************************");
 
-        for (int i = 0; i < typesOfTriangle.length; i++) {
-            if (triangles.containsValue(typesOfTriangle[i])) {
-                Info.writeInfo(typesOfTriangle[i]);
+        for(Object element: trianglesTypes)
+        {
+            V type=(V) element;
+            Info.writeInfo((String) type);
 
 
-                KeeperView.findElements(triangles, typesOfTriangle[i]);
+            KeeperView.findElements(triangles, type);
 
-                KeeperView.findMaxByPerimetr(triangles, typesOfTriangle[i]);
-                KeeperView.findMinByPerimetr(triangles, typesOfTriangle[i]);
+            KeeperView.findMaxByPerimetr(triangles, type);
+            KeeperView.findMinByPerimetr(triangles, type);
 
-                KeeperView.findMaxBySquare(triangles, typesOfTriangle[i]);
-                KeeperView.findMinBySquare(triangles, typesOfTriangle[i]);
-            }
-
+            KeeperView.findMaxBySquare(triangles, type);
+            KeeperView.findMinBySquare(triangles, type);
         }
+
+
+
+
+
     }
 
-    private static void findElements(HashMap<Triangle, String> map, String value) {
+    private static <K, V> void findElements(HashMap<K, V> map, V value) {
         map.entrySet().stream()
                 .filter(element -> element.getValue().equals(value))
                 .forEach(neededElement -> Info.writeInfo(neededElement.getKey().toString()));
     }
 
-    private static void findMaxByPerimetr(HashMap<Triangle, String> map, String value) {
+    private static <K, V> void findMaxByPerimetr(HashMap<K, V> map, V value) {
         TriangleComparatorByPerimetr compareByPerimetr = new TriangleComparatorByPerimetr();
 
-        Stream<HashMap.Entry<Triangle, String>> rightElements = KeeperView.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> maxElement = rightElements.max((element1, element2) -> compareByPerimetr.compare(element1.getKey(), element2.getKey())).get();
+        Stream<HashMap.Entry<K, V>> rightElements = KeeperView.getRightElements(map, value);
+        HashMap.Entry<K, V> maxElement = rightElements.max((element1, element2) -> compareByPerimetr.compare((Triangle) element1.getKey(), (Triangle) element2.getKey())).get();
 
         Info.writeInfo("Maximum by perimetr: " + maxElement.getKey());
 
 
     }
 
-    private static void findMinByPerimetr(HashMap<Triangle, String> map, String value) {
+    private static <K, V> void findMinByPerimetr(HashMap<K, V> map, V value) {
         TriangleComparatorByPerimetr compareByPerimetr = new TriangleComparatorByPerimetr();
 
-        Stream<HashMap.Entry<Triangle, String>> rightElements = KeeperView.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> minElement = rightElements.min((element1, element2) -> compareByPerimetr.compare(element1.getKey(), element2.getKey())).get();
+        Stream<HashMap.Entry<K, V>> rightElements = KeeperView.getRightElements(map, value);
+        HashMap.Entry<K, V> minElement = rightElements.min((element1, element2) -> compareByPerimetr.compare((Triangle) element1.getKey(), (Triangle) element2.getKey())).get();
 
         Info.writeInfo("Minimum by perimetr: " + minElement.getKey());
 
     }
 
-    private static void findMaxBySquare(HashMap<Triangle, String> map, String value) {
+    private static <K, V> void findMaxBySquare(HashMap<K, V> map, V value) {
         TriangleComparatorBySquare compareBySquare = new TriangleComparatorBySquare();
 
-        Stream<HashMap.Entry<Triangle, String>> rightElements = KeeperView.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> maxElement = rightElements.max((element1, element2) -> compareBySquare.compare(element1.getKey(), element2.getKey())).get();
+        Stream<HashMap.Entry<K, V>> rightElements = KeeperView.getRightElements(map, value);
+        HashMap.Entry<K, V> maxElement = rightElements.max((element1, element2) -> compareBySquare.compare((Triangle) element1.getKey(), (Triangle) element2.getKey())).get();
 
         Info.writeInfo("Maximum by square: " + maxElement.getKey());
 
     }
 
-    private static void findMinBySquare(HashMap<Triangle, String> map, String value) {
+    private static <K, V> void findMinBySquare(HashMap<K, V> map, V value) {
         TriangleComparatorBySquare compareBySquare = new TriangleComparatorBySquare();
 
-        Stream<HashMap.Entry<Triangle, String>> rightElements = KeeperView.getRightElements(map, value);
-        HashMap.Entry<Triangle, String> minElement = rightElements.min((element1, element2) -> compareBySquare.compare(element1.getKey(), element2.getKey())).get();
+        Stream<HashMap.Entry<K, V>> rightElements = KeeperView.getRightElements(map, value);
+        HashMap.Entry<K, V> minElement = rightElements.min((element1, element2) -> compareBySquare.compare((Triangle) element1.getKey(), (Triangle) element2.getKey())).get();
 
-        Info.writeInfo("Minimum by square: " + minElement.getKey()+"\n\n\n");
+        Info.writeInfo("Minimum by square: " + minElement.getKey() + "\n\n\n");
 
     }
 
-    private static Stream<HashMap.Entry<Triangle, String>> getRightElements(HashMap<Triangle, String> map, String value) {
+    private static <K, V> Stream<HashMap.Entry<K, V>> getRightElements(HashMap<K, V> map, V value) {
         return map.entrySet()
                 .stream()
                 .filter(element -> element.getValue().equals(value));

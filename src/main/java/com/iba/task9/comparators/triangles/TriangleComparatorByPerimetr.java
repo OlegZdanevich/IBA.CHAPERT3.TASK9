@@ -8,11 +8,8 @@ import java.util.Comparator;
 public class TriangleComparatorByPerimetr implements Comparator<Triangle> {
 
     public int compare(Triangle firstElement, Triangle secondElement) {
-            if (TriangleTools.getPerimetr(firstElement) > TriangleTools.getPerimetr(secondElement)) {
-                return 1;
-            } else {
-                return -1;
-            }
+        int result = (TriangleTools.getPerimetr(firstElement) > TriangleTools.getPerimetr(secondElement)) ? 1 : -1;
+        return result;
 
     }
 

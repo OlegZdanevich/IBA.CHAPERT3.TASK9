@@ -5,15 +5,11 @@ import org.apache.log4j.Logger;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public abstract class Exceptions {
+public class Exceptions {
     private static final Logger log = Logger.getLogger(Exceptions.class);
 
-    public static void makeWarning(String warning)
+    public static void classCastException(ClassCastException exception)
     {
-        log.warn(warning);
-    }
-
-    public static void noParametrException(NullPointerException exception) {
         StackTraceElement[] info = exception.getStackTrace();
         StringBuilder trace = makeStackTrace(info);
 
@@ -37,14 +33,6 @@ public abstract class Exceptions {
         log.trace(trace);
     }
 
-    public static void notInitializedException(NullPointerException exception) {
-        StackTraceElement[] info = exception.getStackTrace();
-        StringBuilder trace = makeStackTrace(info);
-
-        log.error("Object should be initalized");
-        log.trace(trace);
-
-    }
 
     public static void notNumberException(NumberFormatException exception) {
         StackTraceElement[] info = exception.getStackTrace();
@@ -63,13 +51,6 @@ public abstract class Exceptions {
 
     }
 
-    public static void divisionByZero(ArithmeticException exception) {
-        StackTraceElement[] info = exception.getStackTrace();
-        StringBuilder trace = makeStackTrace(info);
-
-        log.error(exception.getMessage());
-        log.trace(trace);
-    }
 
     private static StringBuilder makeStackTrace(StackTraceElement[] info) {
         StringBuilder trace = new StringBuilder("");

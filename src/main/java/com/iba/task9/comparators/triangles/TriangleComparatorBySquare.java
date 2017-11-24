@@ -8,11 +8,8 @@ import java.util.Comparator;
 public class TriangleComparatorBySquare implements Comparator<Triangle> {
 
     public int compare(Triangle firstElement, Triangle secondElement) {
-        if (TriangleTools.getSquare(firstElement) > TriangleTools.getSquare(secondElement)) {
-            return 1;
-        } else {
-            return -1;
-        }
+        int result = (TriangleTools.getSquare(firstElement) > TriangleTools.getSquare(secondElement)) ? 1 : -1;
+        return result;
 
     }
 }
