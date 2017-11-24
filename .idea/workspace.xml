@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d628c08c-6c60-4e1d-a3ef-056ee8de9218" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/Run/main.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/run/main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/entity/point/Point.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/entity/point/Point.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/entity/point/PointTools.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/tools/point/PointTools.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/entity/triangle/triangle/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/entity/triangle/Triangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/entity/triangle/triangle/TriangleTools.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TriangleTools.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/entity/triangle/typeAnalizer/GetType.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TypeAnalizerTools.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/loggin/exceptions/Exceptions.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/loggin/exceptions/Exceptions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/loggin/info/Info.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/loggin/info/Info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangles/comparators/TrianglesKeeperByPerimetrComp.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetr.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangles/comparators/TrianglesKeeperBySquareComp.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangles/trianglesKeeper/TrianglesKeeperManage.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/keeper/TrianglesKeeper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangles/trianglesKeeper/ViewGroups.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/tools/keeper/KeeperView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/observer/Observable.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/observer/Observable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/oleg/observer/Observer.java" afterPath="$PROJECT_DIR$/src/main/java/com/iba/task9/observer/Observer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/oleg/entity/triangle/triangle/TriangleToolsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/errors.log" afterPath="$PROJECT_DIR$/logs/errors.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/Logic/Point/Point.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/Logic/Point/PointTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/Run/main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/loggin/exceptions/Exceptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/loggin/info/Info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangle/triangle/Triangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangle/triangle/TriangleTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangle/typeAnalizer/GetType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangles/comparators/TrianglesKeeperByPerimetrComp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangles/comparators/TrianglesKeeperBySquareComp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangles/trianglesKeeper/TrianglesKeeperManage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/logic/triangles/trianglesKeeper/ViewGroups.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/observer/Observable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/oleg/observer/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/oleg/logic/triangle/triangle/TriangleToolsTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,71 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="log4j2.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/observer/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="errors.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs/errors.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriangleTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TriangleTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeAnalizerTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TypeAnalizerTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="358">
+              <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -105,18 +43,48 @@
       <file leaf-file-name="TriangleToolsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="222">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exceptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/loggin/exceptions/Exceptions.java">
+      <file leaf-file-name="TriangleComparatorByPerimetr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="68">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/point/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/point/PointTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/triangle/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,14 +92,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/loggin/info/Info.java">
+      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="34" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleComparatorByPerimetrTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetrTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
               <folding>
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleComparatorBySquare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleComparatorBySquareTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,6 +145,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>comparator</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>comparatorPerimetr</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -158,11 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ArrayListOfTriangles/ArrayListOfTriangles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Triangle/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Logic/ArrayListOfTriangles/ArrayListOfTrianglesByPerimetrComp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Logic/Triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oleg/Logic/triangle/TringleTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oleg/logic/triangle/TringleTools.java" />
@@ -209,6 +210,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oleg/tools/keeper/KeeperView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iba/task9/tools/keeper/KeeperView.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquareTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetrTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/point/PointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleTest.java" />
       </list>
     </option>
   </component>
@@ -218,7 +224,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="205" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -291,6 +297,35 @@
               <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="point" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,6 +347,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="triangles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="point" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBA.CHAPERT3.TASK9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBA.CHAPERT3.TASK9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="triangle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -331,14 +404,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.iba.task9.entity.triangle" />
+      <recent name="com.iba.task9.entity.point" />
+      <recent name="com.iba.task9.comparators.triangles" />
       <recent name="com.oleg.logic.triangle.triangle" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Exceptions" />
       <recent name="Point" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CatsUser\IdeaProjects\Chapert3Task9" />
@@ -356,19 +432,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="TriangleToolsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TriangleTest.toStringCheck">
+    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.oleg.tools.triangle.*" />
+          <option name="PATTERN" value="com.iba.task9.entity.point.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Chapert3Task9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.oleg.entity.triangle.triangle" />
-      <option name="MAIN_CLASS_NAME" value="com.oleg.entity.triangle.triangle.TriangleToolsTest" />
+      <option name="PACKAGE_NAME" value="com.iba.task9.entity.point" />
+      <option name="MAIN_CLASS_NAME" value="com.iba.task9.entity.point.PointTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -382,19 +458,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TriangleToolsTest.getPerimetr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PointTest.toStringCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.oleg.tools.triangle.*" />
+          <option name="PATTERN" value="com.iba.task9.entity.point.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Chapert3Task9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.oleg.entity.triangle.triangle" />
-      <option name="MAIN_CLASS_NAME" value="com.oleg.entity.triangle.triangle.TriangleToolsTest" />
-      <option name="METHOD_NAME" value="getPerimetr" />
+      <option name="PACKAGE_NAME" value="com.iba.task9.entity.point" />
+      <option name="MAIN_CLASS_NAME" value="com.iba.task9.entity.point.PointTest" />
+      <option name="METHOD_NAME" value="toStringCheck" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -407,19 +483,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TriangleToolsTest.getSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangleComparatorBySquareTest.compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.oleg.tools.triangle.*" />
+          <option name="PATTERN" value="com.iba.task9.comparators.triangles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Chapert3Task9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.oleg.entity.triangle.triangle" />
-      <option name="MAIN_CLASS_NAME" value="com.oleg.entity.triangle.triangle.TriangleToolsTest" />
-      <option name="METHOD_NAME" value="getSquare" />
+      <option name="PACKAGE_NAME" value="com.iba.task9.comparators.triangles" />
+      <option name="MAIN_CLASS_NAME" value="com.iba.task9.comparators.triangles.TriangleComparatorBySquareTest" />
+      <option name="METHOD_NAME" value="compare" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TriangleTest.equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iba.task9.entity.triangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapert3Task9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iba.task9.entity.triangle" />
+      <option name="MAIN_CLASS_NAME" value="com.iba.task9.entity.triangle.TriangleTest" />
+      <option name="METHOD_NAME" value="equals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TriangleTest.toStringCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iba.task9.entity.triangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapert3Task9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iba.task9.entity.triangle" />
+      <option name="MAIN_CLASS_NAME" value="com.iba.task9.entity.triangle.TriangleTest" />
+      <option name="METHOD_NAME" value="toStringCheck" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -513,37 +639,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.oleg.run.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.oleg.run.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chapert3Task9" />
-      <envs />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest.getPerimetr" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest.getSquare" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PointTest.toStringCheck" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PointTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleComparatorBySquareTest.compare" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleTest.equals" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TriangleTest.toStringCheck" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest.getSquare" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleToolsTest.getPerimetr" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TriangleTest.toStringCheck" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleTest.equals" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleComparatorBySquareTest.compare" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PointTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PointTest.toStringCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -566,58 +675,59 @@
       <workItem from="1511373586135" duration="4065000" />
       <workItem from="1511414065002" duration="16326000" />
       <workItem from="1511436173214" duration="3084000" />
-      <workItem from="1511519344108" duration="2398000" />
+      <workItem from="1511519344108" duration="7293000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TriangleToolsTest - 2017.11.23 at 14h 23m 02s.xml">
-      <configuration name="TriangleToolsTest" configurationId="JUnit" />
+    <history-entry file="PointTest - 2017.11.24 at 15h 31m 24s.xml">
+      <configuration name="PointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest - 2017.11.23 at 14h 25m 43s.xml">
-      <configuration name="TriangleToolsTest" configurationId="JUnit" />
+    <history-entry file="PointTest_toStringCheck - 2017.11.24 at 15h 30m 28s.xml">
+      <configuration name="PointTest.toStringCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest - 2017.11.23 at 14h 27m 15s.xml">
-      <configuration name="TriangleToolsTest" configurationId="JUnit" />
+    <history-entry file="PointTest_toStringCheck - 2017.11.24 at 15h 31m 00s.xml">
+      <configuration name="PointTest.toStringCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getPerimetr - 2017.11.23 at 14h 19m 23s.xml">
-      <configuration name="TriangleToolsTest.getPerimetr" configurationId="JUnit" />
+    <history-entry file="TriangleComparatorByPerimetrTest - 2017.11.24 at 15h 05m 05s.xml">
+      <configuration name="TriangleComparatorByPerimetrTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getPerimetr - 2017.11.23 at 14h 19m 58s.xml">
-      <configuration name="TriangleToolsTest.getPerimetr" configurationId="JUnit" />
+    <history-entry file="TriangleComparatorByPerimetrTest_compare - 2017.11.24 at 14h 52m 15s.xml">
+      <configuration name="TriangleComparatorByPerimetrTest.compare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getSquare - 2017.11.23 at 14h 18m 05s.xml">
-      <configuration name="TriangleToolsTest.getSquare" configurationId="JUnit" />
+    <history-entry file="TriangleComparatorBySquareTest_compare - 2017.11.24 at 15h 34m 48s.xml">
+      <configuration name="TriangleComparatorBySquareTest.compare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getSquare - 2017.11.23 at 14h 19m 14s.xml">
-      <configuration name="TriangleToolsTest.getSquare" configurationId="JUnit" />
+    <history-entry file="TriangleTest_equals - 2017.11.24 at 15h 46m 08s.xml">
+      <configuration name="TriangleTest.equals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getSquare - 2017.11.23 at 14h 19m 55s.xml">
-      <configuration name="TriangleToolsTest.getSquare" configurationId="JUnit" />
+    <history-entry file="TriangleTest_equals - 2017.11.24 at 15h 46m 34s.xml">
+      <configuration name="TriangleTest.equals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getSquare - 2017.11.23 at 14h 20m 05s.xml">
-      <configuration name="TriangleToolsTest.getSquare" configurationId="JUnit" />
+    <history-entry file="TriangleTest_equals - 2017.11.24 at 15h 47m 07s.xml">
+      <configuration name="TriangleTest.equals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleToolsTest_getSquare - 2017.11.23 at 14h 20m 20s.xml">
-      <configuration name="TriangleToolsTest.getSquare" configurationId="JUnit" />
+    <history-entry file="TriangleTest_toStringCheck - 2017.11.24 at 15h 50m 55s.xml">
+      <configuration name="TriangleTest.toStringCheck" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61263000" />
+    <option name="totallyTimeSpent" value="66158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -633,7 +743,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -671,29 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oleg/logic/triangles/TrianglesKeeper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/tools/point/PointTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -823,25 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/point/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/triangle/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-776">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/results.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -876,26 +943,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -915,7 +966,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -923,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -933,7 +984,7 @@
         <state relative-caret-position="493">
           <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,7 +994,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,7 +1018,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TriangleTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -975,15 +1026,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/tools/triangle/TypeAnalizerTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <caret line="6" column="41" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -998,8 +1041,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/errors.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="358">
+          <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorByPerimetrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/point/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/comparators/triangles/TriangleComparatorBySquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleToolsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/point/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iba/task9/entity/triangle/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="103" column="15" lean-forward="false" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iba/task9/entity/triangle/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
